@@ -20,15 +20,17 @@ O ambiente de testes foi preparado para execução de testes **mobile Android** 
 - Allure Reports (para relatórios de testes)
 - Estrutura baseada em Page Object Model (POM)
 
-#### 📱 Dispositivo Utilizado
+#### 📱 Dispositivo e Aplicativo Utilizado
 
-- **Emulador Android**: Pixel 6 (x86_64)
-- **Versão do Android**: 13 (API Level 33)
-- **App testado**: `my-demo-app.apk` (da SauceLabs)
-- O arquivo APK está incluso no repositório, dentro da pasta do projeto.
+- **Emulador Android:** Pixel 7 (x86_64)  
+- **Versão do Android:** 14 (API Level 34)  
+- **App testado:** [My Demo App Android – última release oficial](https://github.com/saucelabs/my-demo-app-android/releases)  
+- **Nome do APK:** `my-demo-app.apk`  
+- O arquivo do aplicativo encontra-se incluso no projeto.
+
+> O app é mantido pela **SauceLabs**, sendo amplamente utilizado para estudos e automação mobile. Ele contém fluxos completos de login, carrinho e checkout, ideais para testes funcionais e E2E.
 
 ---
-
 
 📘 A arquitetura segue o padrão **Page Object**, garantindo isolamento da lógica de UI, manutenção facilitada e reuso de código entre cenários.
 
